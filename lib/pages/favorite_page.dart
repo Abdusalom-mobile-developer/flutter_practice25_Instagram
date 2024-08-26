@@ -1,0 +1,18 @@
+import 'package:flutter/material.dart';
+
+class FavoritePage extends StatefulWidget {
+  static final String id = "favorite_page";
+  const FavoritePage({super.key});
+
+  @override
+  State<FavoritePage> createState() => _FavoritePageState();
+}
+
+class _FavoritePageState extends State<FavoritePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Text("Favorite Page"),
+    );
+  }
+}
